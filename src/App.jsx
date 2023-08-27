@@ -11,11 +11,20 @@ function handleSubmit(e) {
   setTodos(currentTodos => {
     return [...currentTodos,{ id: crypto.randomUUID(), title: newItem, completed: false },]
   })
+  setNewItem("")
+
 }
 
-setNewItem("")
 
 function toggleTodo(id, completed) {
+  setTodos(currentTodos => {
+    return currentTodos.map(todo => {
+      if (todo.id === id) {
+        return {...todo, completed}
+      }
+      return todo
+    })
+  })
 
 
 }
