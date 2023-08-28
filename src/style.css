@@ -8,7 +8,7 @@
 
 /* Body Styles */
 body {
-  background: #b4e68b;
+  background: #aff4ec;
   color: hsl(142, 68%, 25%);
   max-width: 600px;
   padding: 1rem;
@@ -17,13 +17,14 @@ body {
 
 /* Button Styles */
 .btn {
-  background-color: rgb(35, 225, 63);
-  border: 1px solid hsl(117, 74%, 49%);
-  color: hsl(249, 100%, 50%);
-  padding: 0.25em 0.5em;
-  border-radius: 0.25em;
+ 
+  background-color: #fc1f5a;
+  color: white;
+  border: none;
+  padding: 8px 12px;
   cursor: pointer;
-  outline: none;
+  margin-left: 10px;
+  border-radius: 4px;
 }
 
 .btn:hover,
@@ -61,7 +62,7 @@ body {
   background: hsl(192, 67%, 88%);
   border-radius: 0.25em;
   padding: 0.25em 0.5em;
-  color: hsl(200, 100%, 90%);
+  color: hsl(212, 74%, 5%);
 }
 
 .new-item-form input:focus {
