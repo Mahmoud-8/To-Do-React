@@ -1,5 +1,5 @@
 # Todo App
-
+![Alt text](<Screenshot 2023-08-28 at 4.07.31 PM.png>)
 A simple web application for managing your to-do list.
 
 ## Overview
